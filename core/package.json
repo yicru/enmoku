@@ -2,7 +2,13 @@
   "name": "@enmoku/core",
   "module": "index.ts",
   "type": "module",
+  "scripts": {
+    "lint": "biome check .",
+    "format": "biome check --write .",
+    "format:force": "biome check --write --unsafe ."
+  },
   "devDependencies": {
+    "@biomejs/biome": "1.9.3",
     "@types/bun": "latest"
   },
   "peerDependencies": {
