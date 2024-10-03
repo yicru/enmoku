@@ -13,5 +13,9 @@
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "playwright": "^1.47.2",
+    "ts-pattern": "^5.4.0"
   }
 }
